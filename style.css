@@ -1,0 +1,721 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #f7f2ee;
+  height: 50px;
+  padding: 0 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 22px;
+  margin-right: 8px;
+}
+
+.logo span {
+  font-family: "montserrat" sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+/* Right social icons */
+.social-icons i {
+  margin-left: px;
+  font-size: 14px;
+  color: #777;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color:#777;
+}
+
+
+
+/* 2 image part */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Center header */
+.center-header {
+  padding: 40px 0;
+}
+
+.logo-img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 40px;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/* Cards section */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+/* Single card */
+.card {
+  width: 220px;
+  text-decoration: none;
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.category {
+  font-size: 11px;
+  color: gray;
+  letter-spacing: 2px;
+  margin: 10px 0 5px;
+}
+
+.card h3 {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.card span {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+
+
+
+  /* 3. MY TRAVEL ESSENTIALS */
+
+.travel-section {
+  background: #f9f5ef;
+  text-align: center;
+  padding: 120px 50px;
+  margin: 20px 30px;
+  
+  
+
+}
+
+/* Heading */
+.travel-section h2 {
+  letter-spacing: 3px;
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+.travel-section p {
+  font-family: "Lora";
+  font-weight: 400;
+  font-size: 20px;
+  color: #555;
+  
+}
+
+/* Images row */
+.items {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+/* Images */
+.items img {
+  width: 180px;
+}
+
+/* 4.BACKPACKER SECTION css styling*/
+
+.backpacker-section {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+/* Heading */
+.backpacker-section h2 {
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+.backpacker-section h2 span {
+  color: orange;
+}
+
+/* Text */
+.backpacker-section p {
+  margin: 15px 0 40px;
+  color: #555;
+  font-size: 14px;
+}
+
+.highlight {
+  color: coral;
+}
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Images */
+.gallery img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+/* 5 never ending footsteps css styling */
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* SECTION */
+.footsteps {
+  text-align: center;
+  padding: 90px 30px;
+  position: relative;
+}
+
+/* LIGHT BACKGROUND TEXT */
+.footsteps::before {
+  content: "Discover";
+  position: absolute;
+  font-size: 160px;
+  color: rgba(0,0,0,0.03);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* HEADING */
+.footsteps h2 {
+  letter-spacing: 5px;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPH */
+.footsteps p {
+  max-width: 720px;
+  margin: auto;
+  font-size: 15px;
+  color: #555;
+  line-height: 26px;
+}
+
+/* WRAPPER */
+.timeline-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+/* ARROW IMAGES */
+.arrow img {
+  width: 25px;
+  cursor: pointer;
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+/* CENTER LINE */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ddd;
+}
+
+/* ITEM */
+.item {
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+/* ICON */
+.item img {
+  width: 42px;
+}
+
+/* DOT */
+.dot {
+  width: 12px;
+  height: 12px;
+  background: black;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+/* TEXT */
+.item h4 {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.item span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+/* DOWN ITEM */
+.item.down img {
+  margin-bottom: 15px;
+}
+
+/* UP ITEM */
+.item.up h4,
+.item.up span {
+  position: relative;
+  top: -70px;
+}
+
+.item.up img {
+  margin-top: 15px;
+}
+
+
+/* around the world in 10 days */
+
+
+.travel-section {
+  width: 90%;
+  margin: 80px auto;
+}
+
+/* left content */
+.content {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content h2 {
+  letter-spacing: 4px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #777;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+/* right images */
+.images {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.images img {
+  width: 70%;
+  display: block;
+}
+
+.img1 {
+  margin-left: 80px;
+}
+
+.img2 {
+  margin-top: -80px;
+}
+
+
+
+/* BEST MONEY TRAVEL TIPS */
+
+
+.tips-section {
+  width: 90%;
+  margin: 80px auto;
+}
+
+/* LEFT SIDE */
+.books {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.books img {
+  width: 40%;
+}
+
+.book1 {
+  margin-right: 20px;
+}
+
+.book2 {
+  margin-top: 40px;
+}
+
+/* RIGHT SIDE */
+.content {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content h2 {
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #777;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+form input {
+  width: 30%;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+
+/* top categories */
+
+
+
+
+.categories-section {
+  text-align: center;
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.categories-section h2 {
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  width: 16%;
+}
+
+.category img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.category h4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.category span {
+  font-size: 11px;
+  color: #999;
+}
+
+
+/* slider 2 */
+
+
+.slider-container {
+  width: 90%;
+  margin: 60px auto;
+  position: relative;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  align-items: center;
+  gap: 60px;
+}
+
+.slide.active {
+  display: flex;
+}
+
+.slide img {
+  width: 60%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.content {
+  width: 40%;
+}
+
+.small {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #999;
+}
+
+.content h2 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin: 15px 0;
+}
+
+.content p {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #666;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  font-size: 22px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.left {
+  left: -20px;
+}
+
+.right {
+  right: -20px;
+}
+
+
+/* our sponsers */
+
+
+/* .slide-track {
+  display: flex;
+  width: calc(100px * 10); 
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-200px * 10)); 
+  }
+} */
+
+
+
+/* our Sponsers */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* SPONSORS */
+.sponsors {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.sponsors h2 {
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sponsor-logos img {
+  height: 30px;
+  opacity: 0.8;
+}
+
+/* MIDDLE FOOTER */
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+  border-top: 1px solid #eee;
+}
+
+.footer-box {
+  width: 32%;
+  text-align: center;
+}
+
+.footer-box h4 {
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  color: #999;
+}
+
+.map {
+  width: 220px;
+  margin-bottom: 15px;
+}
+
+.location {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* SOCIAL */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.social-grid div {
+  cursor: pointer;
+}
+
+.social-grid i {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.social-grid span {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.social-grid div:hover i {
+  color: #000;
+}
+
+/* NEWSLETTER */
+.footer-box input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.footer-box button {
+  width: 100%;
+  padding: 14px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-box button:hover {
+  opacity: 0.8;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+  background: #f7f3ef;
+  font-size: 12px;
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
