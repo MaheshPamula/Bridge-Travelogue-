@@ -74,6 +74,24 @@
   </a>
 </div>
 
+<!-- badges -->
+
+<div class="badge-box">
+      <div class="badge badge--info">
+        <span class="badge__number">630+</span>
+        <span class="badge__text">Bridge<br> demos</span>
+      </div>
+
+      <button class="badge badge--cta">
+        <span class="badge__icon">🛒</span>
+        <span class="badge__text">BUY NOW $69</span>
+      </button>
+    </div>
+
+
+
+
+
 
 <div class="travel-section">
 
@@ -384,39 +402,10 @@
 </div>
 
 <script src="script.js"></script>
+<script src="contact.js"></script>
 
 
-<!-- our sponsers -->
 
-<!-- 
-<div class="sponsors-section">
-  <h2>OUR SPONSORS</h2>
-
-  <div class="slider">
-    <div class="slide-track">
-
-      <div class="slide"><img src="./images/client-1.png" alt="img1"></div>
-      <div class="slide"><img src="./images/client-2.png" alt="img2"></div>
-      <div class="slide"><img src="./images/client-4.png" alt="img3"></div>
-      <div class="slide"><img src="./images/client-5-hover.png" alt="img4"></div>
-      <div class="slide"><img src="./images/client-5.png" alt="img5"></div>
-      <div class="slide"><img src="./images/client-6.png" alt="img6"></div>
-      <div class="slide"><img src="./images/client-7.png" alt="img7"></div>
-      <div class="slide"><img src="./images/client-7-hover.png" alt="img8"></div>
-      <div class="slide"><img src="./images/client-8.png" alt="img9"></div>
-      <div class="slide"><img src="./images/client-9.png" alt="img10"></div> -->
-
-      <!-- Duplicate logos for smooth infinite scroll -->
-      <!-- <div class="slide"><img src="./images/client-1.png" alt="img1"></div>
-      <div class="slide"><img src="images/client-2.png" alt="img2"></div>
-      <div class="slide"><img src="images/client-4.png" alt="img3"></div>
-      <div class="slide"><img src="images/client-5.png" alt="img4"></div>
-      <div class="slide"><img src="images/client-8.png" alt="img5"></div>
-
-    </div>
-  </div>
-</div>
- -->
 
  <!-- our sponsers -->
 
@@ -464,7 +453,7 @@
     <div class="footer-box">
       <h4>NEWSLETTER</h4>
       <input type="email" placeholder="E-mail Address">
-      <button>SUBSCRIBE</button>
+      <button onclick="openMap()" >SUBSCRIBE</button>
     </div>
 
   </div>
@@ -481,6 +470,22 @@
       <li><a href="#">VACATION</a></li>
     </ul>
   </div>
+<script>
+        function openMap() {
+            const address = "108/43 Vijaya Lakshmi Enclave 1st Floor H No 2 PJR Enclave Rd Gangaram ICRISAT Colony Hyderabad Telangana 500050";
+
+            // Convert address to Google Maps URL
+            const mapURL =
+                "https://www.google.com/maps/search/?api=1&query=" +
+                encodeURIComponent(address);
+
+            // Redirect 
+            window.open(mapURL, "_blank"); 
+        }
+    </script>
+
+
+
 
 </footer>  
 </body>
